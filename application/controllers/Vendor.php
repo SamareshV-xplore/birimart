@@ -1982,9 +1982,6 @@ class Vendor extends CI_Controller
             echo 'Source: ' . $text . '<br>';
             echo 'Translation: ' . $responseDecoded['data']['translations'][0]['translatedText'];
         }
-    }
-    
-
-
+    }   
 
 }

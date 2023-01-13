@@ -90,6 +90,11 @@ $route['vendor/product/express'] = 'Vendor/view_add_product_express';
 $route['vendor/product/add'] = 'Vendor/view_add_products';
 $route['vendor/product/list'] = 'Vendor/view_products_list';
 
+// Vendor Dashboard Data Getting API Routes
+// ========================================
+$route["vendor/dashboard/orders_list"] = "Vendor/get_dashboard_orders_list";
+
+
 
 // Add Product Express 
 
